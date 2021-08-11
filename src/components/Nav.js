@@ -19,7 +19,7 @@ function Nav() {
   };
 
   const toggleNav = () => {
-    setNavObj({ open: !this.state.open });
+    setNavObj({ open: !navObj.open });
   };
 
   useEffect( () => {
@@ -31,7 +31,7 @@ function Nav() {
   }, [])
 
     return (
-      <nav className="navbar navbar-expand-lg navbar-light bg-light mb-2">
+      <nav className="navbar navbar-expand-lg bg-black mb-2">
         <Link className="navbar-brand" to="/">
           Brett Fleming
         </Link>

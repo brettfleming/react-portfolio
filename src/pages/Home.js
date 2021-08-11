@@ -7,7 +7,7 @@ function Home() {
             <p className="lead">Full Stack Developer, based out of Minnesota </p>
             <hr className="my-4"></hr>
             <p className="lead">
-                <a className="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+                <a className="btn btn-primary btn-lg" href="/about" role="button">Learn more about me</a>
             </p>
         </div>
     )
