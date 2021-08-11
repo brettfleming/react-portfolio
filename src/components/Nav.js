@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-// import "./style.css";
+import "./style.css";
 
 function Nav() {
  const [navObj, setNavObj] = useState({
@@ -52,7 +52,7 @@ function Nav() {
               <Link
                 onClick={toggleNav}
                 className={window.location.pathname === "/projects" ? "nav-link active" : "nav-link"}
-                to="/saved"
+                to="/projects"
               >
                 Projects
               </Link>
@@ -70,7 +70,7 @@ function Nav() {
               <Link
                 onClick={toggleNav}
                 className={window.location.pathname === "/contact" ? "nav-link active" : "nav-link"}
-                to="/about"
+                to="/Contact"
               >
                 Contact Me
               </Link>

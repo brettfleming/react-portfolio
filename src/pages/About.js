@@ -22,7 +22,7 @@ function About() {
             <h2 className='about-title'>About Me</h2>
             <div>
                 <div className='d-flex'>
-                    <img className='col-4 p-5'src={Me}/>
+                    <img className='img-me col-4 p-5'src={Me}/>
                     <p className='col-8 p-2'>
                         I graduted from high school in 2016, I ended up attending Luther college in the small town of Decorah Iowa in pursuit of a chemistry degree.
                         I attended Luther for four years playing soccer for all of them, I played in the attack as a winger and as a striker. In my four years on the varsity soccer team we won 
