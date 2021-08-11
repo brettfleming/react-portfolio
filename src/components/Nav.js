@@ -31,7 +31,7 @@ function Nav() {
   }, [])
 
     return (
-      <nav className="navbar navbar-expand-lg bg-black mb-2">
+      <nav className="navbar navbar-expand-lg mb-2">
         <Link className="navbar-brand" to="/">
           Brett Fleming
         </Link>
