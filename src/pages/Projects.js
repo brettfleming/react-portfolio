@@ -1,3 +1,4 @@
+import { motion } from "framer-motion"
 import DndProject from '../assets/photos/dnd-creator-homepage.jpg'
 import Cccbeer from '../assets/photos/landings_page_screenshot.png'
 import Bootstrap from '../assets/photos/skills-images/bootstrap.png';
@@ -8,7 +9,7 @@ function Projects() {
     return (
             <div className='project'>
                     <h2 className='about-title'> My Projects</h2>
-                    <div className='d-flex project-box'>
+                    <motion.div className='d-flex project-box' animate={{ x: 0 }} initial={ {x: 1000}} transition={{ ease: "easeOut", duration: 2 }}>
                         <div>
                             <img className='img-project'src={DndProject}/>
                         </div>
@@ -28,8 +29,8 @@ function Projects() {
                                 <button type="button" class="btn btn-success project-btn"><a href="https://dnd-creator.herokuapp.com/" target="_blank">Demo</a></button>
                             </div>
                         </div>
-                    </div>
-                    <div className='d-flex'>
+                    </motion.div>
+                    <motion.div className='d-flex' animate={{ x: 0 }} initial={ {x: -1000}} transition={{ ease: "easeOut", duration: 2 }}>
                         <div className='d-flex'>
                         <div className="project-body">
                             <h3 className='project-title'>Cocktails, Cuisine & Craft Beers</h3>
@@ -51,7 +52,7 @@ function Projects() {
                             <img className='img-project'src={Cccbeer}/>
                         </div>
                         </div>
-                    </div>
+                    </motion.div>
                     {/* <div className='d-flex'>
                         <div className='d-flex'>
                         <div className="project-body">

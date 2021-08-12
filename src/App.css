@@ -60,6 +60,10 @@ h3 {
   align-content: center;
   margin: none;
 }
+.about-resume {
+  text-align: center;
+  font-size: 20px;
+}
 
 .about-title {
   text-align: center;

@@ -12,6 +12,7 @@ import react from '../assets/photos/skills-images/React.png';
 import npm from '../assets/photos/skills-images/npm_logo.png';
 import Mern from '../assets/photos/skills-images/mern.jpg';
 import Github from '../assets/photos/skills-images/github-logo.png';
+import { motion } from "framer-motion"
 
 
 
@@ -49,6 +50,10 @@ function About() {
                 <img className="skills-image-npm" src={npm} alt="npm Logo"/>
                 <img className="skills-image-mern" src={Mern} alt="MERN"/>
                 <img className="skills-image-github" src={Github} alt="GitHub Logo"/>
+            </div>
+            <div>
+                <h2 className='about-title'>Resume</h2>
+                <p className='about-resume'>Heres a link to my <a href='https://docs.google.com/document/d/1yUazAXmWEYqt2k7-Hb3eO1Doh9E70w2cYLp3fiEiQjE/edit?usp=sharing' target='_blank'>resume</a></p>
             </div>
         </div>
     )
