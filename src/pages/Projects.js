@@ -7,7 +7,7 @@ import Css3 from '../assets/photos/skills-images/css3.png';
 
 function Projects() {
     return (
-            <div className='project'>
+            <motion.div className='project' animate={{ opacity: 1}} initial={ {opacity: 0}} transition={{ ease: "easeOut", duration: 2 }}>
                     <h2 className='about-title'> My Projects</h2>
                     <motion.div className='d-flex project-box' animate={{ x: 0 }} initial={ {x: 1000}} transition={{ ease: "easeOut", duration: 2 }}>
                         <div>
@@ -76,7 +76,7 @@ function Projects() {
                         </div>
                         </div>
                     </div> */}
-            </div>
+            </motion.div>
     )
 }
 
