@@ -10,7 +10,7 @@ import Projects from "./pages/Projects";
 
 function App() {
   return (
-    <Router>
+    <Router basename={"/react-portfolio"}>
       <div>
         <Nav />
         <Switch>
