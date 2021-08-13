@@ -8,7 +8,7 @@ function Home() {
             <p className="lead">Full Stack Developer, based out of Minnesota, and Im ready to bring my creative ideas to life!  </p>
             <hr className="my-4"></hr>
             <p className="lead">
-                <a className="btn btn-primary btn-lg" href="react-portfolio/#/about" role="button">Learn more about me</a>
+                <a className="btn btn-primary btn-lg" href="/#/about" role="button">Learn more about me</a>
             </p>
         </motion.div>
     )
