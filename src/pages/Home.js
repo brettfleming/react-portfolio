@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion"
+import { Link } from 'react-router-dom'
 
 function Home() {
     return (
@@ -8,7 +9,7 @@ function Home() {
             <p className="lead">Full Stack Developer, based out of Minnesota, and Im ready to bring my creative ideas to life!  </p>
             <hr className="my-4"></hr>
             <p className="lead">
-                <a className="btn btn-primary btn-lg" href="/#/about" role="button">Learn more about me</a>
+                <Link className="btn btn-primary btn-lg" to='/about'>Learn more about me</Link>
             </p>
         </motion.div>
     )
