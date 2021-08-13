@@ -6,8 +6,7 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Projects from "./pages/Projects";
 
-console.log(process.env)
-const routePrefix = (process.env.NODE_ENV === "production") ? "/react-portfolio/": "/"
+
 
 function App() {
   return (
@@ -15,10 +14,10 @@ function App() {
       <div>
         <Nav />
         <Switch>
-          <Route exact path={`${routePrefix}`} component={Home}/>
-          <Route exact path={`${routePrefix}projects`} component={Projects}/>
-          <Route path={`${routePrefix}about`} component={About}/>
-          <Route exact path={`${routePrefix}contact`} component={Contact}/>
+          <Route exact path='/' component={Home}/>
+          <Route exact path='/projects' component={Projects}/>
+          <Route path='/about' component={About}/>
+          <Route exact path='/contact' component={Contact}/>
         </Switch>
       </div>
     </Router>
